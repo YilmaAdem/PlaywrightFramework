@@ -1,0 +1,23 @@
+{
+  "name": "playwright-web-api-automation-shatty",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "regression": "npx playwright test --grep @Regression",
+    "WebTests": "npx playwright test --grep @Web",
+    "SmokaTests": "npx playwright test --grep @SmokeTest",
+    "APITest": "npx playwright test --grep @API"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.5",
+    "allure-playwright": "^3.14.0"
+  }
+}

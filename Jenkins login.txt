@@ -1,0 +1,7 @@
+Jenkins 
+
+Jenkins 
+Username and pwd – Yilma, Amhara26$, http://localhost:8080/login?from=%2F
+Dashboard - Jenkins
+Sign in - Jenkins
+java -jar jenkins-cli.jar -s http://localhost:8080/ help
