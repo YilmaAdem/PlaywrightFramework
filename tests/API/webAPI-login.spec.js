@@ -51,12 +51,7 @@ test('@API Client App login', async ({browser}) => {
     els.map(b => b.outerHTML.slice(0, 200))
     );
     console.log(buttons.join('\n'));
- */
-    //await page.getByRole("button", { name: "Cart" }).click();
-   //await page.locator("button[routerlink*='/dashboard/cart']").click();
-   //await page.locator('.ngx-spinner-overlay').first()
-   // .waitFor({ state: 'hidden', timeout: 30000 })
-   // .catch(() => {}); // If no spinner appears, continue
+  */
 
    await page.locator('button[routerlink*="cart"]').click({ timeout: 60000});
     await expect(page.getByText("ZARA COAT 3")).toBeVisible();
@@ -65,7 +60,7 @@ test('@API Client App login', async ({browser}) => {
  
 });
 // listening the webpage if it is loaded
-  test('debug goto', async ({ page }) => {
+  test('@API  debug goto', async ({ page }) => {
      const response = await page.goto("https://rahulshettyacademy.com/client/#/dashboard/", {
        waitUntil: 'domcontentloaded',
        timeout: 60000

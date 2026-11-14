@@ -1,0 +1,3 @@
+Token :  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YWQxOGMxNzkzYjA4NGM0MWY1MjNkZDciLCJ1c2VyRW1haWwiOiJ5aWxtYS5tZWtAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NjEyNTk5NTExNiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc5NDY3NjQzMiwiZXhwIjoxODI2MjM0MDMyfQ.Jo2yKQmETQg7SAvT4gWjBQbyOT9Ea5gTOnq48aimb4I
+Order status: 201
+Order body: {"orders":["6af896d092a4341c4c18d370"],"productOrderId":["6960eae1c941646b7a8b3ed3"],"message":"Order Placed Successfully"}

@@ -1,0 +1,11 @@
+ORDER JSON: {
+  orders: [ '6af89b1792a4341c4c18d98e' ],
+  productOrderId: [ '6960eac0c941646b7a8b3e68' ],
+  message: 'Order Placed Successfully'
+}
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YWQxOGMxNzkzYjA4NGM0MWY1MjNkZDciLCJ1c2VyRW1haWwiOiJ5aWxtYS5tZWtAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NjEyNTk5NTExNiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc5NDY3NzUyNywiZXhwIjoxODI2MjM1MTI3fQ.FrrNydV_9qRXmQ590LWlGbllhpCue3eoUM2I5Db_QOo',
+  orderId: '6af89b1792a4341c4c18d98e'
+}
+Intercepted: https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/6ad18c1793b084c41f523dd7
+ You have No Orders to show at this time. Please Visit Back Us 

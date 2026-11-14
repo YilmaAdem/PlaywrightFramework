@@ -1,0 +1,9 @@
+ORDER JSON: {
+  orders: [ '6af8982892a4341c4c18d56b' ],
+  productOrderId: [ '6960eac0c941646b7a8b3e68' ],
+  message: 'Order Placed Successfully'
+}
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YWQxOGMxNzkzYjA4NGM0MWY1MjNkZDciLCJ1c2VyRW1haWwiOiJ5aWxtYS5tZWtAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NjEyNTk5NTExNiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc5NDY3Njc3NiwiZXhwIjoxODI2MjM0Mzc2fQ.YlS2QoXPGSFPgPgi09uu1Y9Yu5CGndNIMVPuZHByIIg',
+  orderId: '6af8982892a4341c4c18d56b'
+}

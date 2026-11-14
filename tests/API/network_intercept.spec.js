@@ -16,7 +16,7 @@ test.beforeAll(async () => {
 })
 //=======Network intercepting for no order in the Order table========
 
-test("No order in orderTabel - Network intercept ", async ({ page }) => {
+test('No order in orderTabel - Network intercept ', async ({ page }) => {
     await page.addInitScript(({ token, email }) => {
         window.localStorage.setItem('token', token);
         window.localStorage.setItem('userEmail', email);

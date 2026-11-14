@@ -1,0 +1,5 @@
+=========Page Object Manager =======
+Products: [ 'ADIDAS ORIGINAL', 'ZARA COAT 3', 'iphone 13 pro' ]
+ | 6af7deca92a4341c4c176251 | 
+Thank You Page Order ID: 6af7deca92a4341c4c176251
+Row Order ID: 6af7deca92a4341c4c176251

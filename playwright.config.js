@@ -17,9 +17,11 @@ const config = defineConfig({
     ['list'],
     ['html', {
       outputFolder: 'playwright-report',
-      open: 'on-failure'
+      open: 'never'
     }],
-    ['allure-playwright']
+    ['allure-playwright', {
+      resultsDir: 'allure-results'
+    }]
   ],
   //timeout - on asseration level - expect
   expect: {
@@ -37,7 +39,8 @@ const config = defineConfig({
     headless: true,
     //Tracer
     //trace: 'retain-on-failure', // off , on 
-    trace: 'on-first-retry', // off , on
+    trace: 'on', // off , on
+    screenshot: 'only-on-failure',
 
     //Timeout 
     actionTimeout: 100 * 1000, // for click , fill etc
@@ -56,9 +59,11 @@ module.exports = defineConfig({
     ['list'],
     ['html', {
       outputFolder: 'playwright-report',
-      open: 'on-failure'
+      open: 'never'
     }],
-    ['allure-playwright']
+    ['allure-playwright', {
+      resultsDir: 'allure-results'
+    }]
   ]
 });
 
